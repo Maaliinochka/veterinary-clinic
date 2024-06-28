@@ -1,4 +1,4 @@
 package com.example.vetclinic.entitiy;
 
-public class Diagnosis {
+public class AppointmentDisease {
 }
