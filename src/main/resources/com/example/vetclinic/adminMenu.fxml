@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vetclinic.controller.AdminMenuController">
+    <children>
+        <Button layoutX="165.0" layoutY="222.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #5D9B9B;" text="Животные">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <Button layoutX="339.0" layoutY="222.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #5D9B9B #5D9B9B;" text="Приемы">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <Label layoutX="167.0" layoutY="89.0" text="Меню администратора" textFill="#5d9b9b">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <AnchorPane prefHeight="72.0" prefWidth="600.0" style="-fx-background-color: #FFFAFA;">
+            <children>
+                <Label layoutX="166.0" layoutY="15.0" text="Ветеринарная клиника">
+                    <font>
+                        <Font name="Gabriola" size="35.0" />
+                    </font>
+                </Label>
+            <Button layoutX="22.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: #5D9B9B;" text="Назад" />
+            </children></AnchorPane>
+      <Button layoutX="165.0" layoutY="175.0" mnemonicParsing="false" style="-fx-background-color: #5D9B9B;" text="Владельцы">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="347.0" layoutY="269.0" mnemonicParsing="false" style="-fx-background-color: #5D9B9B;" text="Врачи">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="175.0" layoutY="269.0" mnemonicParsing="false" style="-fx-background-color: #5D9B9B;" text="Породы">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="323.0" layoutY="175.0" mnemonicParsing="false" style="-fx-background-color: #5D9B9B;" text="Заболевания">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

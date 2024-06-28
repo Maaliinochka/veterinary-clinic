@@ -6,9 +6,9 @@
 
 <AnchorPane prefHeight="350.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vetclinic.controller.RegistrationController">
     <children>
-        <Button layoutX="244.0" layoutY="292.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" style="-fx-background-color: #c1caca;" text="Зарегистрироваться" textFill="WHITE" />
-        <TextField layoutX="193.0" layoutY="137.0" prefHeight="25.0" prefWidth="236.0" promptText="Имя" />
-        <TextField layoutX="193.0" layoutY="211.0" prefHeight="25.0" prefWidth="236.0" promptText="Адрес" />
+        <Button layoutX="244.0" layoutY="292.0" mnemonicParsing="false" onAction="#registerAction" prefHeight="25.0" prefWidth="133.0" style="-fx-background-color: #c1caca;" text="Зарегистрироваться" textFill="WHITE" />
+        <TextField fx:id="nameFIeld" layoutX="193.0" layoutY="137.0" prefHeight="25.0" prefWidth="236.0" promptText="Имя" />
+        <TextField fx:id="addressField" layoutX="193.0" layoutY="211.0" prefHeight="25.0" prefWidth="236.0" promptText="Адрес" />
         <Label layoutX="236.0" layoutY="90.0" text="Регистрация" textFill="#5d9b9b">
             <font>
                 <Font size="25.0" />
@@ -21,9 +21,9 @@
                         <Font name="Gabriola" size="35.0" />
                     </font>
                 </Label>
-            <Button layoutX="27.0" layoutY="27.0" mnemonicParsing="false" style="-fx-background-color: #5d9b9b;" text="Назад" />
+            <Button layoutX="27.0" layoutY="27.0" mnemonicParsing="false" onAction="#returnAction" style="-fx-background-color: #5d9b9b;" text="Назад" />
             </children></AnchorPane>
-      <TextField layoutX="193.0" layoutY="175.0" prefHeight="25.0" prefWidth="236.0" promptText="Номер телефона" />
-      <TextField layoutX="193.0" layoutY="250.0" prefHeight="25.0" prefWidth="236.0" promptText="Пароль" />
+      <TextField fx:id="phoneField" layoutX="193.0" layoutY="175.0" prefHeight="25.0" prefWidth="236.0" promptText="Номер телефона" />
+      <TextField fx:id="passwordField" layoutX="193.0" layoutY="250.0" prefHeight="25.0" prefWidth="236.0" promptText="Пароль" />
     </children>
 </AnchorPane>

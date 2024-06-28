@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vetclinic.controller.BreedsController">
+    <children>
+        <Label layoutX="160.0" layoutY="23.0" prefHeight="47.0" prefWidth="280.0" text="Ветеринарная клиника" textFill="#e9e2e2">
+            <font>
+                <Font name="Gabriola" size="35.0" />
+            </font>
+        </Label>
+
+        <Label layoutX="216.0" layoutY="78.0" text="Список пород" textFill="#5d9b9b">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <TableView layoutX="76.0" layoutY="136.0" prefHeight="200.0" prefWidth="414.0">
+            <columns>
+                <TableColumn prefWidth="38.333343505859375" text="id" />
+                <TableColumn prefWidth="374.00000762939453" text="Название породы" />
+            </columns>
+        </TableView>
+        <Button layoutX="27.0" layoutY="34.0" mnemonicParsing="false" onAction="#returnAction" style="-fx-background-color: #5d9b9b;" text="Назад" />
+        <Button layoutX="506.0" layoutY="150.0" mnemonicParsing="false" style="-fx-background-color: #5d9b9b;" text="Добавить" />
+        <Button layoutX="505.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #5d9b9b;" text="Удалить" />
+        <Button layoutX="507.0" layoutY="238.0" mnemonicParsing="false" style="-fx-background-color: #5d9b9b;" text="Обновить" />
+    </children>
+</AnchorPane>
